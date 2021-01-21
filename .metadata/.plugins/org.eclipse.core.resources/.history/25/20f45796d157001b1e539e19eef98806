@@ -1,0 +1,2 @@
+[2021-01-16 16:49:36:139518][http-nio-8080-exec-4] WARN  com.cos.person.config.BindingAdvice - com.cos.person.web.UserController.save() => 필드 : username, 메시지 : 유저네임을 입력하세요.
+[2021-01-16 16:49:44:147967][http-nio-8080-exec-5] WARN  com.cos.person.config.BindingAdvice - com.cos.person.web.UserController.save() => 필드 : username, 메시지 : 유저네임을 입력하세요.

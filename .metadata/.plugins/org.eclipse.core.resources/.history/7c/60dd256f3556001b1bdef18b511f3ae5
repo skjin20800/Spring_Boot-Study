@@ -1,0 +1,42 @@
+package com.cos.person.web;
+
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserController {
+
+	//http://localhost:8080/user
+	@GetMapping("/user")
+	public void findAll() {
+		
+	}
+
+	//http://localhost:8080/user2
+	@GetMapping("/user/{id}")
+	public void findById(@PathVariable int id) {
+		
+	}
+
+	//http://localhost:8080/user2
+	@PostMapping("/user")
+	// x-www-form-urlencoded (request.getParamter()
+	public void save(@PathVariable int id) {
+		
+	}
+	//http://localhost:8080/user/2	
+	@DeleteMapping("/user/{id}")
+	public void delete(@PathVariable int id) {
+		
+	}
+	
+	//http://localhost:8080/user/2
+	@PutMapping("/user/{id}")
+	public void update(@PathVariable int id) {
+		
+	}
+}
